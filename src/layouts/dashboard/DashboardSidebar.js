@@ -94,13 +94,13 @@ export default function DashboardSidebar({ isOpenSidebar, onCloseSidebar }) {
             bgcolor: 'grey.200'
           }}
         >
-          <Box
+          {/* <Box
             component="img"
             src="/static/illustrations/illustration_rocket.png"
             sx={{ width: 100, position: 'absolute', top: -50 }}
-          />
+          /> */}
 
-          <Box sx={{ textAlign: 'center' }}>
+          {/* <Box sx={{ textAlign: 'center' }}>
             <Typography gutterBottom variant="h6">
               Get more?
             </Typography>
@@ -116,7 +116,7 @@ export default function DashboardSidebar({ isOpenSidebar, onCloseSidebar }) {
             variant="contained"
           >
             Upgrade to Pro
-          </Button>
+          </Button> */}
         </Stack>
       </Box>
     </Scrollbar>

@@ -60,7 +60,7 @@ function NewsItem({ news }) {
 export default function AppNewsUpdate() {
   return (
     <Card>
-      <CardHeader title="News Update" />
+      <CardHeader title="Derniers cours visités" />
 
       <Scrollbar>
         <Stack spacing={3} sx={{ p: 3, pr: 0 }}>
@@ -73,15 +73,15 @@ export default function AppNewsUpdate() {
       <Divider />
 
       <Box sx={{ p: 2, textAlign: 'right' }}>
-        <Button
+        {/* <Button
           to="#"
           size="small"
           color="inherit"
           component={RouterLink}
-          endIcon={<Icon icon={arrowIosForwardFill} />}
+          // endIcon={<Icon icon={arrowIosForwardFill} />}
         >
-          View all
-        </Button>
+          .
+        </Button> */}
       </Box>
     </Card>
   );
